@@ -66,6 +66,11 @@ command -v node
 command -v npm
 command -v yarn
 
+
+git config --global user.name "Niko Salonen"
+git config --global user.email "niko.salonen@almamedia.fi"
+git config --global url."git@github.com:".insteadOf "https://github.com/"
+
 # Remove outdated versions from the cellar
 brew cleanup
 
