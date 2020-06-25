@@ -71,6 +71,7 @@ brew cask install github
 brew cask install microsoft-edge
 brew cask install kap
 brew cask install vlc
+brew cask install backblaze
 
 
 
@@ -97,3 +98,8 @@ mas install 443987910 # 1Password
 mas install 1147396723 # WhatsApp Desktop
 mas install 803453959 # Slack
 mas install 441258766 # Magnet
+
+# ZSH
+/bin/bash -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+chsh -s /bin/zsh
