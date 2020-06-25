@@ -44,6 +44,8 @@ brew cask install font-cascadia
 # Python
 brew install pyenv
 
+# AWS
+brew install awscli
 
 # Casks
 brew cask install vscode
