@@ -74,6 +74,7 @@ brew cask install vlc
 brew cask install backblaze
 brew cask install karabiner-elements
 brew cask install notion
+brew cask install docker
 
 
 
