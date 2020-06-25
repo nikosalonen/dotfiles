@@ -47,8 +47,16 @@ brew install pyenv
 # AWS
 brew install awscli
 
+# GO
+brew install go
+
 # Casks
-brew cask install vscode
+brew cask install iterm2
+brew cask install insomnia
+brew cask install the-unarchiver
+brew cask install visual-studio-code
+brew cask install spotify
+brew cask install visual-studio-code
 
 
 
