@@ -83,10 +83,11 @@ brew cleanup
 # MAS
 
 brew install mas
-mas signin niko@nikosalonen.com
+
 
 # Install from MAS
 
 mas install 443987910 # 1Password
 mas install 1147396723 # WhatsApp Desktop
-mas install # Skype
+mas install 803453959 # Slack
+mas install 441258766 # Magnet
