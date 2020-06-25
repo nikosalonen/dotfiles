@@ -50,12 +50,17 @@ brew install awscli
 # GO
 brew install go
 
+# Other
+brew install jq
+
 # Casks
 brew cask install iterm2
 brew cask install insomnia
 brew cask install the-unarchiver
 brew cask install visual-studio-code
 brew cask install spotify
+brew cask install alfred
+brew cask install skype
 
 
 
@@ -83,4 +88,5 @@ mas signin niko@nikosalonen.com
 # Install from MAS
 
 mas install 443987910 # 1Password
-mas install 425424353 # The Unarchiver
+mas install 1147396723 # WhatsApp Desktop
+mas install # Skype
