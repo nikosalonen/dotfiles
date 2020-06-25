@@ -1,6 +1,11 @@
 #!/bin/bash
+echo Login to Appstore first!
+# no solution to automate AppStore installs
+read -p "Press any key to continue... " -n1 -s
+echo  '\n'
 
-# Installs Homebrew, Git, git-extras, git-friendly, hub, Node.js, etc.
+
+# Installs Homebrew, Git, Node.js, etc.
 
 # Ask for the administrator password upfront
 sudo -v
@@ -52,6 +57,7 @@ brew install go
 
 # Other
 brew install jq
+brew install the_silver_searcher
 
 # Casks
 brew cask install iterm2
