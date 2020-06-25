@@ -69,6 +69,8 @@ brew cask install alfred
 brew cask install skype
 brew cask install github
 brew cask install microsoft-edge
+brew cask install kap
+brew cask install vlc
 
 
 
