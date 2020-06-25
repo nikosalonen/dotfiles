@@ -56,7 +56,6 @@ brew cask install insomnia
 brew cask install the-unarchiver
 brew cask install visual-studio-code
 brew cask install spotify
-brew cask install visual-studio-code
 
 
 
