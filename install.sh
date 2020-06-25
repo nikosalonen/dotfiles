@@ -44,7 +44,7 @@ npm config set loglevel warn
 
 # Install fonts
 brew tap homebrew/cask-fonts
-brew cask install font-cascadia
+brew cask install font-cascadia font-cascadia-pl
 
 # Python
 brew install pyenv
