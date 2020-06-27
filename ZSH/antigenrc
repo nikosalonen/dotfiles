@@ -1,0 +1,31 @@
+antigen use oh-my-zsh
+
+antigen bundle git
+antigen bundle brew
+antigen bundle common-aliases
+antigen bundle command-not-found
+antigen bundle copydir
+antigen bundle copyfile
+antigen bundle cp
+antigen bundle dotenv
+antigen bundle git-auto-fetch
+antigen bundle golang
+antigen bundle node
+antigen bundle nvm
+antigen bundle pip
+antigen bundle pyenv
+antigen bundle python
+antigen bundle screen
+antigen bundle sudo
+antigen bundle systemd
+
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# Load the theme.
+antigen theme denysdovhan/spaceship-prompt
+
+# Tell Antigen that you're done.
+antigen apply
