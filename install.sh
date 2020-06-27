@@ -106,3 +106,9 @@ mas install 441258766 # Magnet
 /bin/bash -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 chsh -s /bin/zsh
+
+
+echo All done!
+
+read -p "Press any key to continue... " -n1 -s
+echo  '\n'
